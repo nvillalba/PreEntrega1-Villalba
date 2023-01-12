@@ -1,0 +1,68 @@
+.header{
+    width: 100%;
+    height: 22vh;
+    display: flex;
+    background-color: #78d576;
+    align-items: center;
+    position: sticky;
+}
+.logo{
+    gap: 2rem;
+    align-content: center;
+    text-align: center;
+    justify-content: flex-end;
+    background-color: #78d576;
+    list-style: none;
+    margin: 0;
+    width: 30%;
+}
+.headerLogo{
+    width: auto;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+}
+.nombreLogo{
+    color: #000;
+    text-decoration: none;
+    font-size: 1rem;
+    margin: 0;
+    padding-bottom: .05rem;
+    font-weight: bold;
+}
+.navbar{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+.navegacionEnlace{
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    color: #000;
+    font-weight: bold;
+}
+.navegacionEnlace:hover,
+.navegacionEnlace:focus {
+    background-size: 100% 1.5px;
+}
+.counterProducts{
+    display: block;
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 10px;
+    margin: 0;
+    top: 48px;
+    right: 20px;
+}
